@@ -1,43 +1,90 @@
-*{
+* {
     margin: 0px;
 }
-.merriweather-normal{
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+.merriweather-normal {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.hero{
+body section{
+    margin-bottom: 120px;
+}
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.hero-container{
+
+.hero-container {
     width: 1320px;
     height: 600px;
 
     margin: 0px auto;
     text-align: center;
-    background: linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url(/assets/images/Banner.png);
+    background: linear-gradient(180.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url(/assets/images/Banner.png);
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.hero-title{
+
+.hero-title {
     color: white;
     font-size: 72px;
     font-weight: 900;
-    margin:16px auto 0px ;
+    margin: 16px auto 0px;
     max-width: 632px;
 
 }
-.hero-subtitle{
+
+.hero-subtitle {
     color: white;
     font-size: 32px;
     font-weight: 400;
+}
+
+/* holidayyyyyyy */
+.holiday .discount {
+    color: rgba(255, 0, 0, 1);
+
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holiday p {
+    color: rgba(255, 0, 0, 1);
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 48px 0px 16px;
+}
+
+.holiday h3 {
+    color: rgba(7, 2, 17, 1);
+
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.holiday {
+    width: 800px;
+    margin: 0px auto;
 }
