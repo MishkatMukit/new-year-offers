@@ -10,9 +10,11 @@
     font-variation-settings:
         "wdth" 100;
 }
-body section{
+
+body section {
     margin-bottom: 120px;
 }
+
 .hero {
     display: flex;
     justify-content: center;
@@ -84,7 +86,55 @@ body section{
     text-align: center;
     margin-bottom: 48px;
 }
+
 .holiday {
     width: 800px;
+    height: ;
     margin: 0px auto;
+}
+
+/* welcome part -----------------------------------*/
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.welcome-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%),url(/assets/images/party.png);
+    background-image: ;
+    mix-blend-mode: color-;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+}
+.welcome-col{
+    width: 700px;
+}
+.welcome-col h3{
+    color: white;
+    font-weight: 900;
+    font-size: 64px;
+}
+.welcome-col p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    font-family: inter ;
+    opacity: 0.8;
+    margin: 24px 0px 48px;
+}
+.welcome-col  a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inter ;
+    margin-left: 32px;
+
 }
