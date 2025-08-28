@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+.merriweather-normal{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.hero-container{
+    width: 1320px;
+    height: 600px;
+
+    margin: 0px auto;
+    text-align: center;
+    background: linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url(/assets/images/Banner.png);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.hero-title{
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    margin:16px auto 0px ;
+    max-width: 632px;
+
+}
+.hero-subtitle{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
