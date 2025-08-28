@@ -13,6 +13,7 @@
 
 body section {
     margin-bottom: 120px;
+    /* width: 1320px; */
 }
 
 .hero {
@@ -52,7 +53,7 @@ body section {
 }
 
 /* holidayyyyyyy */
-.holiday .discount {
+.holiday .off {
     color: rgba(255, 0, 0, 1);
 
     font-family: Inter;
@@ -94,47 +95,324 @@ body section {
 }
 
 /* welcome part -----------------------------------*/
-.welcome{
+.welcome {
     display: flex;
     justify-content: center;
     margin-top: 120px;
 }
+
 .welcome-container {
     display: flex;
     gap: 40px;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%),url(/assets/images/party.png);
+    background: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url(/assets/images/party.png);
     background-image: ;
     mix-blend-mode: color-;
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
 }
-.welcome-col{
+
+.welcome-col {
     width: 700px;
 }
-.welcome-col h3{
+
+.welcome-col h3 {
     color: white;
     font-weight: 900;
     font-size: 64px;
 }
-.welcome-col p{
+
+.welcome-col p {
     color: white;
     font-weight: 400;
     font-size: 18px;
     text-align: left;
-    font-family: inter ;
+    font-family: inter;
     opacity: 0.8;
     margin: 24px 0px 48px;
 }
-.welcome-col  a{
+
+.welcome-col a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: 700;
-    font-family: inter ;
+    font-family: inter;
     margin-left: 32px;
 
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 480px;
+    margin: 0px auto;
+}
+
+.info-container h4 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+.red {
+    color: rgba(255, 0, 0, 1);
+}
+
+.info-container button {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inter;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    margin: 0px auto;
+}
+
+.info-container .btn {
+    margin: 48px auto 110px;
+}
+
+/* sale section starts here------------------ */
+.sale-container {
+    display: flex;
+    justify-content: center;
+    width: 1320px;
+    margin: 0px auto;
+    gap: 50px;
+}
+
+.sale-col1,
+.sale-col3 {
+    width: 33.33%;
+    margin: auto 0px;
+
+}
+
+.sale-col1 h3 {
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 22px;
+}
+
+.sale-col1 h4 {
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 500;
+    font-family: inter;
+}
+
+.sale-col1 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inter;
+    text-align: left;
+}
+
+.sale-col2 {
+    padding: 8px;
+    border: 15px solid rgba(255, 0, 0, 1);
+    border-radius: 300px;
+}
+
+.sale-col2 img {
+    width: 360px;
+
+}
+
+.sale-col3 h3 {
+    color: rgba(255, 0, 0, 1);
+    font-weight: 700;
+    font-size: 48px;
+    font-family: inter;
+}
+
+.sale-col3 p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inter;
+    text-align: left;
+    margin: 16px 0px 42px;
+}
+
+.sale-col3 img {
+    width: 140px;
+}
+
+/* discount section starts here---------- */
+.discount-container {
+    width: 1320px;
+    margin: 0px auto;
+}
+
+.discount-bottom {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(/assets/images/gift-box.png) bottom left, url(/assets/images/Rectangle2.png) bottom, url(/assets/images/coupom.png) top right;
+
+    background-repeat: no-repeat;
+
+}
+
+.discount-info h2 {
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 16px 0px 28px;
+}
+
+.discount-info h4 {
+    color: rgba(7, 2, 17, 1);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-family: inter;
+}
+
+.discount-info p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: inter;
+}
+
+/* portfolio section -----------------*/
+.portfolio-container {
+    width: 1320px;
+    margin: 0px auto;
+}
+
+.portfolio-subtitle {
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-title {
+    color: rgba(7, 2, 17, 1);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0px 22px;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    max-width: 900px;
+}
+
+.portfolio-items {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* subscribe section starts here ---------------*/
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 600px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-container p{
+    text-align: center;
+}
+
+.mail-box{
+    background-color: white;
+    border-radius: 50px;
+    margin: 48px 0px 80px;
+}
+
+.mail-box input[type="email"],
+input[type="submit"] {
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+}
+
+.mail-box input[type="email"] {
+    border-radius: 50px 0px 0px 50px;
+    padding: 25px 260px 25px 30px;
+}
+
+.mail-box input[type="submit"] {
+    border-radius: 0px 50px 50px 0px;
+    padding: 25px 56px;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+footer{
+    background-color: black;
+    height: 600px;
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-size: 24px;
+}
+footer .address{
+    max-width: 300px;
+}
+footer .row1{
+    padding: 120px 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 1320px;
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+footer .row1 img{
+    width: 18px;
+}
+footer .row2{
+    padding: 50px 0px 50px;
+    width: 1320px;
+    display: flex;
+    gap: 24px;
+    margin: 0px auto;
+    justify-content: center;
+    border-bottom: 1px solid rgb(82, 82, 82);
+}
+footer .row3{
+    padding-top: 50px ;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+}
+footer .row3 a{
+    text-decoration: none;
+    color: white;
 }
